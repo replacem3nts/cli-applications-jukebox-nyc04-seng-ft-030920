@@ -56,7 +56,7 @@ end
 
 def run(songs)
   init
-    cmd = input
+  cmd = input
   until cmd == "exit" do
     help if cmd == "help"
     list(songs) if cmd == "list"
